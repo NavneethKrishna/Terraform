@@ -14,3 +14,9 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "versioning" {
+  description = "Enable or disable versioning for the S3 bucket."
+  type        = string
+  default     = "Disabled"  
+}
